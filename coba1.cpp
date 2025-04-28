@@ -30,6 +30,6 @@ int main()
     cout << "diameternya adalah" << Venus.nama <<endl;
     
     Venus.displayData(); //pemanggil method
-
+    
 
 };
