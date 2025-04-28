@@ -21,6 +21,14 @@ class Planet {
         cin >> diameter;
         cout << "gravitasiku : ";
         cin >> gravitasi;
-   }
-    
+   } 
 } ;
+
+int main()
+{
+    Planet Venus ; 
+    Venus.inputData(); //tanda () memanggil method
+    cout << "namanya adalah" << Venus.nama <<endl;
+    cout << "diameternya adalah" << Venus.nama <<endl;
+
+};
