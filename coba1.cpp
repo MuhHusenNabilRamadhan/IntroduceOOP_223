@@ -13,4 +13,14 @@ class Planet {
         cout << "ukuranku" << diameter << endl;
         cout << "gravitasiku" << gravitasi << endl;
     }
+
+   void inputData(){
+        cout << "Input nama : ";
+        cin >> nama;
+        cout << "ukuranku : ";
+        cin >> diameter;
+        cout << "gravitasiku : ";
+        cin >> gravitasi;
+   }
+    
 } ;
